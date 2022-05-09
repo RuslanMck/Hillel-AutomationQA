@@ -1,4 +1,4 @@
-public final class calculator {
+public final class Calculator {
 
     public long add(long... numbers) {
         int result = 0;
@@ -49,7 +49,7 @@ public final class calculator {
     }
 
     public long divide(long... numbers) {
-        divisionError zeroCheck = new divisionError();
+        DivisionError zeroCheck = new DivisionError();
         if (!zeroCheck.zeroCheck(numbers)) {
             System.exit(1);
         }
@@ -71,7 +71,7 @@ public final class calculator {
     }
 
     public double divide(double... numbers) {
-        divisionError zeroCheck = new divisionError();
+        DivisionError zeroCheck = new DivisionError();
         if (!zeroCheck.zeroCheck(numbers)) {
             System.exit(1);
         }

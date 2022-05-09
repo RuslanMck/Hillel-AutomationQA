@@ -1,4 +1,4 @@
-public class divisionError {
+public class DivisionError {
 
     boolean zeroCheck(long[] array) {
         boolean result = false;
